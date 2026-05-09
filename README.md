@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="#" target="_blank">
-    <img data-source="github" loading="lazy" alt="LLM" src="banner.png" width="750"/>
+  <a href="https://github.com/ritesh28/llm-nlp-py" target="_blank">
+    <img data-source="github" loading="lazy" alt="LLM" src="https://github.com/ritesh28/llm-nlp-py/raw/main/banner.png" width="750"/>
   </a>
 </p>
 
