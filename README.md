@@ -6,35 +6,21 @@
 
 # LLM-NLP-py
 
-A collection of Python notebooks showcasing practical Large Language Model (LLM) and Natural Language Processing (NLP) applications, workflows, and end-to-end pipelines.
+Hands-on LLM and NLP notebooks—each project is a self-contained pipeline you can run and extend.
 
-## Description
+## Projects
 
-This repository contains a curated collection of Python notebooks focused on Large Language Models (LLMs) and Natural Language Processing (NLP) applications. It includes practical implementations of text preprocessing, prompt engineering, transformer-based models, retrieval-augmented generation (RAG), fine-tuning workflows, and AI automation pipelines. The project is designed for learning, experimentation, and rapid prototyping of modern NLP and generative AI solutions using popular Python libraries and frameworks. These notebooks aim to provide clear, hands-on examples for building scalable and production-ready LLM-powered applications.
-
-## Usage
-
-Navigate to the `source/` directory and open any `.ipynb` file in Jupyter. Run the cells in order to execute the demonstrations.
-
-## Requirements
-
-- Python 3.8+
-- Jupyter Notebook
-- API keys for respective services
+| Project                                           | Description                                                                                                        |
+| ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| [rag-faiss-crossencoder](rag-faiss-crossencoder/) | Ask questions over a PDF: embed chunks, retrieve with FAISS, rerank with a cross-encoder, then answer with OpenAI. |
 
 ## Environment Variables
 
-Create a `.env` file in the root directory:
+Create a `.env` file in the repo root:
 
 ```
-OPENAI_API_KEY=sk-proj-your-api-key-here  # Connect to OpenAI models for LLM operations
+OPENAI_API_KEY=sk-proj-your-api-key-here
 ```
-
-## Files
-
-| Name                          | Description                                                                                                                                             | Tags                      |
-| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
-| [RAG.ipynb](source/RAG.ipynb) | Retrieval-Augmented Generation application for PDF documents using semantic search and re-ranking to retrieve context for LLM-based question answering. | RAG, LLM, Semantic Search |
 
 ## License
 
